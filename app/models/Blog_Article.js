@@ -13,7 +13,7 @@ const schema = {
         title: String,
         slug: String,
         subTitle: String,
-        author: { type: String, meta: { widget: 'ref', ref: 'User' } },
+        author: { type: String, meta: { widget: 'ref', ref: jollof.config.spices.blog.userModelName } },
         isPublished: Boolean,
         datePublished: Date,
         body: { type: String, meta: { widget: 'richtext' } },
