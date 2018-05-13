@@ -14,7 +14,7 @@ module.exports = async function (jollof) {
 
         //Add to jollof
         jollof.spices.push({
-            name: 'Blog',
+            name: 'blog',
             statics: {
                 rootDir: path.join('node_modules', spiceName, 'static'),
                 rootPath: '/blogstatic',
